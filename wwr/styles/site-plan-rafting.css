@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #0D0E44;
+    --secondary-color: #006729;
+    --accent1-color: #A2A1C1;
+    --accent2-color: #FEFEFF;
+
+    --heading-font: '____', outfit;
+    --paragraph-font: '____', outfit;
+
+    --nav-background-color: #FEFEFF;
+    --nav-link-color: #0D0E44;
+    --nav-hover-link-color: #0D0E44;
+    --nav-hover-background-color: #A2A1C1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(outfit);
+    color: var(--primary-color);
+}
+
+h1 {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+nav {
+    background-color: var(--accent2-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-link-color);
+    background-color: var(--nav-hover-background-color);
+}

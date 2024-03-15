@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root {
+    --primary-color: #0D0E44;
+    --secondary-color: #006729;
+    --accent1-color: #A2A1C1;
+    --accent2-color: #FEFEFF;
+
+    --heading-font: '____', outfit;
+    --paragraph-font: '____', outfit;
+
+    --nav-background-color: #FEFEFF;
+    --nav-link-color: #0D0E44;
+    --nav-hover-link-color: #0D0E44;
+    --nav-hover-background-color: #A2A1C1;
+}
+
+div.hero {
+    position: relative;
+    align-content: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: rgba(0, 103, 41, .8);
+    padding: 10px 0px 10px 0px;
+}
+
+.hero article {
+    background: rgba(162, 161, 193, .8);
+    position: absolute;
+    left: 80px;
+    width: 800px;
+    display: block;
+    top: 180px;
+}
+
+.hero article img {
+    width:200px;
+    float: right;
+}
+
+.hero article p {
+    padding: 0px 10px;
+    background: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    font-family: var(--paragraph-font); 
+}
+
+nav.sociallinks a {
+    text-decoration: none;
+}
+
+body {
+    width: 960px;
+}
+

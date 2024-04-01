@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root {
+    --primary-color: #0D0E44;
+    --secondary-color: #006729;
+    --accent1-color: #A2A1C1;
+    --accent2-color: #FEFEFF;
+
+    --heading-font: '____', outfit;
+    --paragraph-font: '____', outfit;
+
+    --nav-background-color: #FEFEFF;
+    --nav-link-color: #0D0E44;
+    --nav-hover-link-color: #0D0E44;
+    --nav-hover-background-color: #A2A1C1;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.contact{
+    text-align: center;
+}
+
+header nav{
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    font-family: var(--paragraph-font); 
+}
+
+.map iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.sociallinks a {
+    text-decoration: none;
+}
+
+body {
+    width: 960px;
+}
+
+.employee{
+    display: flex;
+    justify-content: center;
+}
+
+.e img{
+    height: 283px;
+    flex: 40%;
+    padding: 5px;
+}
+.feild{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.form_field{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+    width: 600px;
+    height: 340px;
+    background-color: #c4c4c5;
+}
+
+.text{
+    display: flex;
+}
+
+.q1{
+    padding: 10px;
+}
+
+.q{
+    padding: 5px;
+}
+input[type=radio]{
+    width: 15px;
+    height: 15px;
+} 
+input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+}
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    border-color: #000000;
+}
+input[type=submit]{
+    border-color: #000000;
+}
+.submit{
+    float: right;
+}
+
+label{
+    font-family: var(--paragraph-font);
+}
+    

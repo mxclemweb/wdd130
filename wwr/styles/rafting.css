@@ -187,7 +187,7 @@ input[type=text]{
     float: right;
 }
 
-input[type=button]{
+button{
     padding: 15px;
     border-color: #000000;
 }

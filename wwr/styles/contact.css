@@ -44,19 +44,17 @@ header nav{
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.contact_pg_h1{
     padding-top: 20px;
     background-color: var(--accent1-color);
-    font-family: var(--heading-font);
     color: var(--accent2-color);
 }
 
-p {
+.company_contact_info{
     padding-bottom: 20px;
     padding-top: 10px;
     background-color: var(--accent1-color);
     color: var(--accent2-color);
-    font-family: var(--paragraph-font); 
 }
 
 .map iframe{
@@ -128,6 +126,10 @@ input[type=submit]{
 }
 .submit{
     float: right;
+}
+
+input[type=submit]{
+    padding: 15px;
 }
 
 label{

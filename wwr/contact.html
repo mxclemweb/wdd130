@@ -28,6 +28,7 @@
     <main>
         <div>
             <section class="contact">
+                <h1>Contact Page</h1>
                 <p>Medford Oregon | +541 264 3390 | rapidrafting@gmail.com</p>
             </section>
         </div>
@@ -54,18 +55,18 @@
         <section>
             <div class="contat_form">
                 <form>
-                    <fieldset>
+                    <fieldset class="contact_field">
                         <legend>Contact Us</legend>
                         <div class="q1">
-                            <input type="text" id="q1" name="q1">
+                            <input type="text" id="q1" name="q1" placeholder="Name">
                             <label for="q1">: Please enter your name</label>
                         </div>
                         <div class="q1">
-                            <input type="text" id="q2" name="q2">
+                            <input type="text" id="q2" name="q2" placeholder="Email">
                             <label for="q2">: Please enter your email address</label>
                         </div>
-                        <div class="q">
-                            <label for="q3">Please select an option</label><br>
+                        <div class="radio_title">
+                            <label for="q3">Please indicate the nature of your message here:</label><br>
                         </div>
                         <div class="q">
                             <input type="radio" id="q3" name="contact question" value="general inquiry">
@@ -79,13 +80,17 @@
                             <input type="radio" id="q5" name="contact question" value="general inquiry">
                             <label for="q5">Website Suggestion</label><br>
                         </div>
+                        <div class="qtext">
+                            <label for="texttarea_box1">Please type your message:</label>
+                            <textarea name="texttarea_box1" id="texttarea_box1" cols="30" rows="10" placeholder="Please type your message here"></textarea>
+                        </div>
                         <div class="q">
                             <input type="checkbox" id="q6" name="subscribe" value="subscribe">
-                            <label for="q6">Please subscribe me to the monthly newsletter</label>
+                            <label for="q6" class="newsletter_subscribe">Please subscribe me to the monthly newsletter</label>
                         </div>
                         <div class="submit">
-                            <Label for="s1">Please submit your form here</Label>
-                            <input type="submit" id="s1" style="height:50px; width:100px">
+                            <Label for="s1">Please send your form here:</Label>
+                            <input type="submit" id="s1" value="SEND" style="height:50px; width:100px">
                         </div>
                     </fieldset>
                 </form>

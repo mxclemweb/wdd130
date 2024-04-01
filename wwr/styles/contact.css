@@ -2,7 +2,7 @@
 
 
 :root {
-    --primary-color: #0D0E44;
+    --primary-color: #050511;
     --secondary-color: #006729;
     --accent1-color: #A2A1C1;
     --accent2-color: #FEFEFF;
@@ -45,12 +45,15 @@ header nav{
 }
 
 h1, h2, h3, h4, h5, h6 {
+    padding-top: 20px;
+    background-color: var(--accent1-color);
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 p {
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
     background-color: var(--accent1-color);
     color: var(--accent2-color);
     font-family: var(--paragraph-font); 
@@ -60,6 +63,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-color: #000000;
 }
 
 nav.sociallinks a {
@@ -81,16 +85,24 @@ body {
     padding: 5px;
 }
 
-.text{
-    display: flex;
+.contact_field{
+    display: block;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+    width: 600px;
+    height: 615px;
+    background-color: #c4c4c5;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+    
 .q1{
     padding: 10px;
 }
 
 .q{
-    padding: 5px;
+    padding: 10px;
 }
 input[type=radio]{
     width: 15px;
@@ -108,6 +120,12 @@ input[type=text]{
 input[type=submit]{
     border-color: #000000;
 }
+
+.qtext label{
+    display: block;
+    padding-bottom: 4px;
+    padding-top: 20px;
+}
 .submit{
     float: right;
 }
@@ -115,4 +133,13 @@ input[type=submit]{
 label{
     font-family: var(--paragraph-font);
 }
-    
+
+.radio_title{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+legend{
+    font-family: var(--paragraph-font);
+}

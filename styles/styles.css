@@ -7,6 +7,12 @@
     font-family: outfit;
 }
 
+header, footer, .grid {
+    margin: 0;
+    max-width: 840px;
+    
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -56,7 +62,6 @@ p {
 }
 
 main {
-    max-width: 840px;
     grid-column: 2/3;
     margin: 10px;
 }
@@ -87,8 +92,5 @@ footer {
     text-align: center;
 }
 
-header, footer, .grid{
-    max-width: 840px;
-    margin: 0;
-}
+
 

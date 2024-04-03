@@ -16,6 +16,23 @@
     --nav-hover-background-color: #A2A1C1;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 100px, auto;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a{
+    font-size: 20px;
+    font-family: var(--heading-font);
+}
+
 div.hero {
     position: relative;
     align-content: center;
@@ -50,6 +67,7 @@ div.hero {
 .hero article img {
     width:200px;
     float: right;
+    padding: 10px;
 }
 
 .hero article p {
@@ -69,8 +87,45 @@ p {
     font-family: var(--paragraph-font); 
 }
 
+.img{
+    height: 100px;
+}
+
+.images_5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+figure{
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption{
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+    padding: 3px;
+    text-align: center;
+}
+
 nav.sociallinks a {
     text-decoration: none;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--nav-hover-background-color);
+    padding-top: 25px;
+    margin-top: 20px;
 }
 
 body {
@@ -91,18 +146,7 @@ fieldset{
     padding: 1rem;
 }
 
-header img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-}
-
 .contact{
-    text-align: center;
-}
-
-header nav{
     text-align: center;
 }
 

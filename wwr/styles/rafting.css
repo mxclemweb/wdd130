@@ -2,9 +2,9 @@
 
 
 :root {
-    --primary-color: #0D0E44;
+    --primary-color: #121212;
     --secondary-color: #006729;
-    --accent1-color: #A2A1C1;
+    --accent1-color: #253222;
     --accent2-color: #FEFEFF;
 
     --heading-font: '____', outfit;
@@ -13,7 +13,7 @@
     --nav-background-color: #FEFEFF;
     --nav-link-color: #0D0E44;
     --nav-hover-link-color: #0D0E44;
-    --nav-hover-background-color: #A2A1C1;
+    --nav-hover-background-color: #253222;
 }
 
 header {
@@ -31,6 +31,7 @@ header nav{
 header nav a{
     font-size: 20px;
     font-family: var(--heading-font);
+    padding: 60px;
 }
 
 div.hero {
@@ -51,12 +52,12 @@ div.hero {
     width: 100%;
     display: block;
     text-align: center;
-    background: rgba(0, 103, 41, .8);
+    background: rgba(201, 247, 255, 0.8);
     padding: 10px 0px 10px 0px;
 }
 
 .hero article {
-    background: rgba(162, 161, 193, .8);
+    background: rgba(16, 23, 15, 0.8);
     position: absolute;
     left: 80px;
     width: 800px;
@@ -71,7 +72,7 @@ div.hero {
 }
 
 .hero article p {
-    padding: 0px 10px;
+    padding: 55px 10px;
     background: none;
 }
 
@@ -107,7 +108,7 @@ figure{
 }
 
 figcaption{
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
     font-family: var(--paragraph-font);
     padding: 3px;
@@ -167,7 +168,7 @@ fieldset{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-color: #000000;
+    border-color: #253222;
 }
 
 nav.sociallinks a {

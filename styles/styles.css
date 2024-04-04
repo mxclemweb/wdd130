@@ -41,8 +41,8 @@ h1 {
     margin:1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding:1rem;
-    background-color: beige;
-    color: lightskyblue;
+    background-color: rgb(247, 247, 247);
+    color: rgb(42, 42, 42);
 }
 
 main img {

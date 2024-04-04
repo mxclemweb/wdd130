@@ -133,6 +133,11 @@ body {
     width: 960px;
 }
 
+.wireframe_logo1 img{
+    height: 80px;
+    padding-right: 160px;
+}
+
 *{
     margin: 0;
     padding: 0;

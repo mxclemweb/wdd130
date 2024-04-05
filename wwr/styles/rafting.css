@@ -255,3 +255,114 @@ label{
 legend{
     font-family: var(--paragraph-font);
 }
+
+.trip_title{
+    text-align: center;
+    font-size: 50px;
+    background-color: var(--accent1-color);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 300;
+}
+
+.three_day_trip{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.three_day_trip img{
+    height: 300px;    
+}
+
+.txt_box_p_one{
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.one_day_trip{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 20px;
+}
+
+.one_day_trip img{
+    height: 250px; 
+}
+
+.p_extra{
+    width: 80px;
+}
+
+.txt_box_p_two{
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.one-three_hour_trip{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.one-three_hour_trip img{
+     width: 450px;
+}
+
+.txt_box_p_three{
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.txt_detail_trips{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--accent1-color);
+}
+
+.contact_link_action{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: var(--heading-font);
+    font-size: 20px;
+}
+
+.txt_three_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p_one_title{
+    padding-right: 60px;
+    padding-bottom: 0px;
+}
+
+.txt_three_details .p_one_txt{
+    width: 300px;
+}
+
+.home_trip_link{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.home_img{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home_img img{
+    width: 400px;
+}
+
+.home_description{
+    display: flex;
+    justify-content: center;
+}

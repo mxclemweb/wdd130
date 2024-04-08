@@ -32,6 +32,7 @@ header nav a{
     font-size: 20px;
     font-family: var(--heading-font);
     padding: 60px;
+    text-decoration: none;
 }
 
 div.hero {
@@ -52,7 +53,7 @@ div.hero {
     width: 100%;
     display: block;
     text-align: center;
-    background: rgba(201, 247, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     padding: 10px 0px 10px 0px;
 }
 
@@ -352,6 +353,7 @@ legend{
     padding: 20px;
 }
 
+
 .home_img{
     padding: 20px;
     display: flex;
@@ -365,4 +367,21 @@ legend{
 .home_description{
     display: flex;
     justify-content: center;
+}
+
+.newsletter_home_form{
+    display: flex;
+    flex-direction: column;
+    background-color: #c4c4c5;
+}
+
+.newsletter_home_question{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.newsletter_home_submit{
+    display: flex;
+    justify-content: flex-end;
 }

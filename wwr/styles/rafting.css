@@ -89,6 +89,10 @@ p {
     font-family: var(--paragraph-font); 
 }
 
+input[type='text']{
+    padding-left: 10px;
+}
+
 .img{
     height: 100px;
 }
@@ -222,6 +226,7 @@ input[type=radio]{
 input[type=checkbox]{
     height: 20px;
     width: 20px;
+    margin-right: 10px;
 }
 input[type=text]{
     width: 200px;
@@ -256,6 +261,10 @@ label{
 legend{
     font-family: var(--paragraph-font);
 }
+
+
+
+
 
 .trip_title{
     text-align: center;
@@ -347,38 +356,50 @@ legend{
     width: 300px;
 }
 
+
+
+
 .home_trip_link{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    place-items: center;
     padding: 20px;
 }
-
 
 .home_img{
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
 }
 
 .home_img img{
-    width: 400px;
+    width: 100%;
 }
 
 .home_description{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    place-items: center;
 }
 
 .newsletter_home_form{
-    display: flex;
-    flex-direction: column;
+    display: grid;
     background-color: #c4c4c5;
+    padding: 20px;
+    gap: 10px;
 }
 
 .newsletter_home_question{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50px auto;
     align-items: center;
-    margin-bottom: 10px;
+}
+
+.newsletter_home_question label{
+    text-align: right;
+}
+
+.newsletter_home_question .checkbox_label {
+    text-align: left;
 }
 
 .newsletter_home_submit{
